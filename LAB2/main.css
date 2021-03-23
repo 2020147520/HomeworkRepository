@@ -2,12 +2,14 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: left;
+    color: rgb(90, 0, 0)
 }
 
 hr {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 button {
     width: 100px;
     padding: 2px;
