@@ -1,0 +1,45 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button {
+    width: 100px;
+    padding: 2px;
+    height: 30px;
+}
+
+form #login {
+    background-color: greenyellow;
+}
+
+form #sign-up {
+    background-color: lightskyblue;
+}
+
+#signup {
+    background-color: aquamarine;
+}
+
+#cancel {
+    background-color: red;
+}
+
+form label, form input, form button{
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 2px;
+}
+
+#d_signup, #d_login {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
