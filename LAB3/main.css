@@ -81,11 +81,10 @@ h1 {
     100% {left: 0%}
 }
 
-about contents {
-    display: flex;
+.contents {
     column-count: 2;
-    column-gap: 1px;
+    column-gap: 7px;
     column-width: 20px;
     column-rule-style: solid;
-    column-rule-width: 2px;
+    column-rule-width: 1px;
 }
