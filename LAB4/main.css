@@ -1,0 +1,204 @@
+head, body {
+    width: 1020px;
+    margin:0 auto;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(90, 0, 0)
+}
+
+hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+button {
+    width: 100px;
+    padding: 2px;
+    height: 30px;
+}
+
+form #login {
+    background-color: greenyellow;
+}
+
+form #sign-up {
+    background-color: lightskyblue;
+}
+
+#signup {
+    background-color: aquamarine;
+}
+
+#cancel {
+    background-color: royalblue;
+}
+
+form label, form input, form button{
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 2px;
+}
+
+#d_signup, #d_login, #d_main {
+    border-top: 2px solid royalblue;
+    border-bottom: 2px solid royalblue;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.header {
+    position: relative;
+    animation-name: headermove;
+    animation-duration: 2s;
+}
+
+@keyframes headermove {
+    0% {left: 100%}
+    100% {left: 0%}
+}
+
+header, aside, main, footer {
+    padding: 20px;
+  }
+  
+header {
+    border: 5px solid black;
+    border-bottom: 0;
+}
+
+body header {
+    border: none;
+}
+  
+aside {
+    border-right: 2px solid royalblue;
+}
+  
+body > div {
+    border: 2px solid royalblue;
+    display: flex;
+}
+  
+footer {
+    border: 2px solid royalblue;
+    border-top: 0;
+}
+  
+aside {
+    flex: 3;
+}
+  
+main {
+    flex: 7;
+}
+
+aside {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+}
+  
+aside div {
+    margin-bottom: 20px;
+}
+
+label, select, input {
+    display: block;
+}
+
+nav label {
+    display: inline;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+select, input, button {
+    width: 100%;
+}
+
+aside {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+}
+  
+aside div {
+    margin-bottom: 20px;
+}
+  
+label, select, input {
+    display: block;
+}
+  
+label {
+    margin-bottom: 5px;
+}
+  
+select, input, button {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+  
+section {
+    width: 45%;
+    margin: 5px;
+    position: relative;
+    height: 215px;
+}
+  
+section img {
+    width: 50%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+}
+
+section p {
+    color: white;
+    background: royalblue;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    bottom: -6px;
+    z-index: 2000;
+}
+
+section h2 {
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    width: 160px;
+    position: absolute;
+    right: 0%;
+    z-index: 3000;
+    padding-top: 0.3rem;
+}
+
+.DetailBtn {
+    background: royalblue;
+    color: white;
+    padding: 5px 0;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    width: 35%;
+    right: 10px;
+    top: 110px;
+}

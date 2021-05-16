@@ -1,0 +1,57 @@
+[
+    {
+        "name" : "JavaScript 200제",
+        "price" : 22500,
+        "image" : "1.jpg",
+        "type" : "JavaScript"
+    },
+
+    {
+        "name" : "Do it! HTML+CSS+자바스크립트 웹 표준의 정석",
+        "price" : 27000,
+        "image" : "2.jpg",
+        "type" : "HTML"
+    },
+
+    {
+        "name" : "혼자 공부하는 자바스크립트",
+        "price" : 21600,
+        "image" : "3.jpg",
+        "type" : "JavaScript"
+    },
+
+    {
+        "name" : "Do it! 점프 투 파이썬",
+        "price" : 16920,
+        "image" : "4.jpg",
+        "type" : "Python"
+    },
+
+    {
+        "name" : "파이썬 머신러닝 완벽 가이드",
+        "price" : 34200,
+        "image" : "5.jpg",
+        "type" : "Python"
+    },
+
+    {
+        "name" : "생활코딩! HTML+CSS+자바스크립트",
+        "price" : 24300,
+        "image" : "6.jpg",
+        "type" : "HTML"
+    },
+
+    {
+        "name" : "디자이너에 의한 디자이너를 위한 실무코딩(HTML+CSS)",
+        "price" : 26550,
+        "image" : "7.jpg",
+        "type" : "HTML"
+    },
+
+    {
+        "name" : "러닝스쿨! 한 권으로 끝내는 HTML+CSS 웹 디자인 입문",
+        "price" : 22500,
+        "image" : "8.jpg",
+        "type" : "HTML"
+    }
+]
